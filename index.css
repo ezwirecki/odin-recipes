@@ -1,0 +1,31 @@
+body {
+    background-color: hsla(120, 100%, 75%, 0.3)
+}
+img {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+h1 {
+    font-family: Tahoma, sans-serif; 
+    color: hsl(0, 80%, 70%);
+
+}
+h1,
+h2,
+h3,
+.cont {
+    text-align: center;
+}
+button {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    background-color:hsla(53, 86%, 56%, 0.891);
+    border-radius: 10px;
+}
