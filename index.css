@@ -1,5 +1,6 @@
 body {
-    background-color: hsla(120, 100%, 75%, 0.3)
+    background: linear-gradient(to right bottom, rgba(151, 247, 151, 0.1), rgb(50, 192, 18));
+    height: 100vh;
 }
 img {
     height: 450px;
@@ -12,6 +13,8 @@ img {
 h1 {
     font-family: Tahoma, sans-serif; 
     color: hsl(0, 80%, 70%);
+    text-shadow: -15px -15px 8px hsl(0, 100%, 1%);
+
 
 }
 h1,
@@ -19,13 +22,32 @@ h2,
 h3,
 .cont {
     text-align: center;
+    
 }
-button {
+
+a:link, a:visited {
+    background-color: transparent;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-family: Tahoma, sans-serif;
     font-size: 15px;
-    height: 30px;
-    width: 150px;
-    background-color:hsla(53, 86%, 56%, 0.891);
-    border-radius: 10px;
+    font-weight: bold;
+    
+}
+a:hover, a:active {
+    background-color:hsla(115, 79%, 49%, 0.919);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    border: none;
+    color: white;
+    box-shadow:0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.heder {
+    background-color:hsla(120, 35%, 47%, 0.3);
+    padding: 10px;
+    border:1px
 }
