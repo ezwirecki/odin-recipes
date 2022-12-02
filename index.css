@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right bottom, rgba(151, 247, 151, 0.1), rgb(50, 192, 18));
+    background: linear-gradient(180deg, #f5e1e1, #DDEFDB);
     height: 100vh;
 }
 img {
@@ -39,7 +39,7 @@ a:link, a:visited {
     
 }
 a:hover, a:active {
-    background-color:hsla(115, 79%, 49%, 0.919);
+    background-color:rgb(216, 216, 154);
     transition-duration: 0.1s;
     cursor: pointer;
     border: none;
