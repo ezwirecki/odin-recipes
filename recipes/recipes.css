@@ -3,10 +3,16 @@
     padding: 20px;
     text-align: center;
 }
-.middle{
+.middle {
     background-color: white;
     padding: 20px;
-    height: auto;
+    height: fit-content;
+}
+.middle-two {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+    height: 300px;
 }
 .down {
     background-color: #FFFFFF;
@@ -19,19 +25,13 @@
     float: left;
     padding: 15px;
     width: 50%;
+    height: auto;
 }
 .column-two {
     float: right;
     
-    
 }
-.column-tree,
-.column-four {
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-    padding: 15px;
-}
+
 
 .box {
     background-color: white;
@@ -42,9 +42,10 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid rgb(216, 216, 154);
+    border: 5px solid rgb(216, 216, 154);
     border-radius: 20px;
     box-shadow:0 20px 20px 0 rgba(0, 0, 0, 0.24), 0 100px 100px 0 rgba(0, 0, 0, 0.3);
+    font-family: Tahoma, sans-serif;
 }
 
 a:link, a:visited {
@@ -61,7 +62,7 @@ a:link, a:visited {
     
 }
 a:hover, a:active {
-    background-color:hsla(115, 79%, 49%, 0.919);
+    background-color: rgb(216, 216, 154);
     transition-duration: 0.1s;
     cursor: pointer;
     border: none;
@@ -72,10 +73,24 @@ h3,
 ol {
     object-fit: contain;
 }
+h3 {
+    font-size: 20px;
+}
 .cont {
     text-align: center;
 }
 .back {
     background:linear-gradient(180deg, #f5e1e1, #DDEFDB);
     height: 200vh;
+}
+.hed-line {
+    text-align: center;
+    font-weight: bold;
+}
+img {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
